@@ -1,0 +1,24 @@
+<section class="aboutPage">
+  <div class="row container">
+    <div class="col-lg-6 col-md-12">
+      <div class="aboutText">
+        <h1>
+          {{data | uppercase}}
+        </h1>
+        <p>Data is comming from API on your right side.</p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12">
+      <h6>Json Placeholder</h6>
+      <ul>
+        <li *ngFor="let user of users">
+          {{user.title}}
+        </li>
+      </ul>
+    </div>
+
+
+
+
+  </div>
+</section>

@@ -1,0 +1,38 @@
+<section class="signup">
+    <div class="row container">
+        <div class="col-lg-6 col-md-12">
+            <img [src]="signupImg" alt="login">
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <form [formGroup]="signupForm" (ngSubmit)="signupUser()">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                    <input placeholder="Enter your name" type="email" formControlName="user" ngModel name="user" class="form-control"
+                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <!-- <span style="color: red;">Name is not valid</span> -->
+
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input placeholder="Enter your address" type="email" formControlName="email" ngModel name="email" class="form-control"
+                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <!-- <span style="color: red;">Email is not valid</span> -->
+
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input placeholder="Enter your password" type="password" formControlName="password" ngModel name="password" class="form-control"
+                        id="exampleInputPassword1">
+                    <!-- <span style="color: red;" >Password is not valid</span> -->
+                </div>
+
+                <button [disabled]="signupForm.invalid" type="submit" class="btn btn-primary">Signup</button>
+            </form>
+            <a routerLink="/login">Already registered? Click to login</a>
+        </div>
+
+        
+
+    </div>
+
+</section>

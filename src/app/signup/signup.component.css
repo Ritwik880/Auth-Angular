@@ -1,0 +1,32 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    width: 500px;
+}
+a{
+    /* color: #000; */
+    text-decoration: none;
+    padding: 1rem 0;
+}
+form{
+    background: #30336b;
+    padding: 5rem 5rem;
+}
+form label{
+    color: #FAFAFA;
+}
+@media (max-width:767px) {
+    .signup{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    img{
+        width: 300px;
+    }
+
+    
+}

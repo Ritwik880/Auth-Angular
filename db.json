@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signUp": [
+    {
+      "user": "Suarav Ptael",
+      "email": "saurav@gmail.com",
+      "address": "Gama 1",
+      "id": 1
+    },
+    {
+      "user": "Ritwik",
+      "email": "ritwik@gmail.com",
+      "address": "Noida sector 76",
+      "id": 2
+    },
+    {
+      "user": "Abhineet Anand",
+      "email": "abhineet@gmail.com",
+      "password": "test123",
+      "id": 3
+    },
+    {
+      "user": "Rishav Kumar",
+      "email": "rishav@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "user": "Madhav Kumar",
+      "email": "madhav@gmail.com",
+      "password": "12345",
+      "id": 5
+    }
+  ],
+  "contact": [
+    {
+      "user": "Ritika Jaiswal",
+      "email": "ritika@gmail.com",
+      "message": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is",
+      "id": 1
+    }
+  ]
+}
